@@ -1,13 +1,10 @@
 /* Utils */
-
 @import url(./utilis/fonts.scss);
 @import url(./utilis/variables.scss);
-
 /* Base */
 @import url(./base/_base.scss);
-
 /* Components */
 @import url(./components/_header.scss);
 @import url(./components/_logo.scss);
 @import url(./components/_contacts.scss);
-@import url(./components/_button.scss);
+@import url(./components/_button.scss);/*# sourceMappingURL=main.css.map */
