@@ -26,3 +26,24 @@
 .contacts__symbol {
   margin-right: 10px;
 }
+
+.footer__contacts--margin {
+  margin-bottom: 9px;
+}
+
+.footer__contacts {
+  padding-top: 0;
+  padding-bottom: 9px;
+
+  color: var(--foter-adres-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__contacts:hover,
+.footer__contacts:focus {
+  color: var(--accent-color);
+}

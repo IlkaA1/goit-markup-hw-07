@@ -1,13 +1,30 @@
 /* Utils */
 
-@import url(./utilis/fonts.scss);
-@import url(./utilis/variables.scss);
+@import './utilis/fonts';
+@import './utilis/variables';
 
 /* Base */
-@import url(./base/_base.scss);
+@import './base/base';
+
+/* Layout */
+
+@import './layout/container';
 
 /* Components */
-@import url(./components/_header.scss);
-@import url(./components/_logo.scss);
-@import url(./components/_contacts.scss);
-@import url(./components/_button.scss);
+@import './components/header';
+@import './components/logo';
+@import './components/contacts';
+@import './components/hero';
+@import './components/button';
+@import './components/modal';
+@import './components/form';
+@import './components/featurs';
+@import './components/heading';
+@import './components/comanda';
+@import './components/sociala-medier';
+@import './components/customers';
+@import './components/footer';
+
+@import './components/portfolio';
+@import './components/portfolio-gallery';
+@import './components/portfolio-group';
