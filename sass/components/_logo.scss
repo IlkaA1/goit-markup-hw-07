@@ -8,26 +8,27 @@
 
   display: inline-block;
   margin-right: 93px;
-}
-.logo--black {
-  color: var(--primary-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  margin-right: 0px;
-}
 
-.logo--position {
-  margin-bottom: 20px;
-  display: flex;
-}
+  &--black {
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 0px;
+  }
 
-.logo--wite {
-  color: var(--body-background-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  margin: 0px;
+  &--position {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  &--wite {
+    color: var(--body-background-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    margin: 0px;
+  }
 }

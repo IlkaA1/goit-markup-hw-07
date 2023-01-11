@@ -20,12 +20,12 @@
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.sociala-medier__link:hover,
-.sociala-medier__link:focus {
-  background-color: var(--accent-color);
-  color: var(--body-background-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--body-background-color);
+  }
 }
 
 .sociala-medier__icon {
@@ -33,11 +33,11 @@
   fill: currentColor;
 
   transition: color 250ma cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.sociala-medier__icon:hover,
-.sociala-medier__icon:focus {
-  color: var(--body-background-color);
+  &:hover,
+  &:focus {
+    color: var(--body-background-color);
+  }
 }
 
 .sociala-medier__link--grey {
@@ -46,9 +46,9 @@
   border-radius: 50px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.sociala-medier__link--grey:hover,
-.sociala-medier__link--grey:focus {
-  background-color: #2196f3;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
 }
