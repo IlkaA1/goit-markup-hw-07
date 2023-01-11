@@ -29,14 +29,11 @@
 }
 
 .sociala-medier__icon {
-  object-position: 50px 50px;
   fill: currentColor;
-
-  transition: color 250ma cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    color: var(--body-background-color);
+    fill: var(--body-background-color);
   }
 }
 
